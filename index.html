@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f7f6f2" />
+  <meta name="description" content="ROUANE — sélection exclusive, style intemporel." />
+  <title>ROUANE — The Art of Less</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement">THE NEW STANDARD OF EVERYDAY LUXURY <span>✦</span> FREE SHIPPING ON SELECT ORDERS</div>
+  <header class="site-header">
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+    <a class="brand" href="#home" aria-label="ROUANE home"><img src="assets/rouane-logo.png" alt="ROUANE logo"></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#collection">COLLECTION</a><a href="#story">OUR STORY</a><a href="#contact">CONTACT</a>
+    </nav>
+    <a class="bag-link" href="#collection">DISCOVER <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> OBJECTS OF DESIRE · EST. 2026</p>
+        <h1>Less, but<br><em>exceptional.</em></h1>
+        <p class="hero-description">A considered collection for those who know that true style never needs to shout.</p>
+        <a class="button button-dark" href="#collection">EXPLORE THE COLLECTION <span>↗</span></a>
+        <div class="hero-note"><span class="note-mark">R.</span><span>DESIGNED TO STAND OUT.<br>MADE TO LAST.</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image blur-image" role="img" aria-label="Blurred luxury editorial product photograph"></div>
+        <div class="image-shade"></div>
+        <div class="vertical-label">THE ROUANE EDITION — Nº 001</div>
+        <div class="hero-stamp"><span>R</span><small>FORM<br>MEETS<br>FEELING</small></div>
+        <div class="image-caption"><span>01 / 04</span><span>THE QUIET LUXURY EDIT</span></div>
+      </div>
+      <div class="hero-bottom"><span>TIMELESS BY DESIGN</span><span>SCROLL TO DISCOVER ↓</span><span>MADE FOR YOUR OWN RULES</span></div>
+    </section>
+
+    <section class="intro" id="story">
+      <p class="eyebrow">A DIFFERENT KIND OF STATEMENT</p>
+      <h2>Luxury is not what you show.<br><em>It's what you choose.</em></h2>
+      <p>Thoughtful details. Strong silhouettes. A little less noise, a lot more meaning. Welcome to ROUANE.</p>
+    </section>
+
+    <section class="collection" id="collection">
+      <div class="section-heading">
+        <div><p class="eyebrow">CURATED FOR YOU</p><h2>The <em>selection.</em></h2></div>
+        <p>Pieces that speak<br>without saying a word.</p>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-photo photo-one blur-image"><span class="product-index">01</span><span class="view-pill">COMING SOON</span></div>
+          <div class="product-info"><div><h3>Essential Form</h3><p>THE EVERYDAY ICON</p></div><span class="price">— — —</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-photo photo-two blur-image"><span class="product-index">02</span><span class="view-pill">COMING SOON</span></div>
+          <div class="product-info"><div><h3>Midnight Object</h3><p>QUIETLY DISTINCTIVE</p></div><span class="price">— — —</span></div>
+        </article>
+        <article class="product-card">
+          <div class="product-photo photo-three blur-image"><span class="product-index">03</span><span class="view-pill">COMING SOON</span></div>
+          <div class="product-info"><div><h3>Modern Classic</h3><p>THE NEW TIMELESS</p></div><span class="price">— — —</span></div>
+        </article>
+      </div>
+      <p class="blur-note"><span>✳</span> PRODUCT IMAGERY INTENTIONALLY BLURRED — REVEAL COMING SOON</p>
+    </section>
+
+    <section class="manifesto">
+      <div class="manifesto-mark">R.</div>
+      <p class="eyebrow">THE ROUANE POINT OF VIEW</p>
+      <h2>Make it <em>matter.</em></h2>
+      <p>Not more. Just better. A point of view built on confidence, simplicity, and the details that make something yours.</p>
+      <a href="#contact" class="text-link">GET TO KNOW US <span>↗</span></a>
+    </section>
+
+    <section class="newsletter" id="contact">
+      <div><p class="eyebrow">FIRST TO KNOW</p><h2>Something good<br>is <em>coming.</em></h2></div>
+      <form id="newsletter-form">
+        <label for="email">Join the list for collection updates.</label>
+        <div class="input-row"><input type="email" id="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">↗</button></div>
+        <p class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="footer-logo"><img src="assets/rouane-logo.png" alt="ROUANE"></a>
+    <span>THE ART OF LESS.</span>
+    <span>© <span id="year"></span> ROUANE STUDIO</span>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
